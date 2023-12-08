@@ -27,7 +27,7 @@ a {
 
 body {
   font-family: "League Spartan", sans-serif;
-  background: var(--color-n3) url("/images/bg-pattern-top-desktop.svg") no-repeat top left;
+  background: var(--color-n3) url("./images/bg-pattern-top-desktop.svg") no-repeat top left;
   height: 100vh;
   display: grid;
   justify-content: center;
