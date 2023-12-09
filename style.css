@@ -41,7 +41,7 @@ body {
   padding-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr minmax(220px, 1fr) auto;
+  grid-template-rows: 1fr minmax(240px, 1fr) auto;
   gap: 64px;
 }
 
@@ -152,6 +152,7 @@ body {
   line-height: 1.2;
   color: var(--color-n3);
   min-width: 20ch;
+  max-width: 45ch;
 }
 
 .attribution {
@@ -165,6 +166,7 @@ body {
 .attribution a {
   color: var(--color-p2);
 }
+
 
 @media (max-width: 600px) {
   body {
