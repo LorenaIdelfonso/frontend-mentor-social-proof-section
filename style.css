@@ -20,11 +20,6 @@ ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 body {
   font-family: "League Spartan", sans-serif;
   background: var(--color-n3) url("./images/bg-pattern-top-desktop.svg") no-repeat top left;
@@ -162,13 +157,13 @@ body {
 .attribution {
   grid-column: 1/-1;
   font-size: 1.8rem;
+  line-height: 1.4;
   font-weight: 400;
   justify-self: center;
 }
 
 .attribution a {
   color: var(--color-p2);
-  text-decoration: underline;
 }
 
 @media (max-width: 600px) {
