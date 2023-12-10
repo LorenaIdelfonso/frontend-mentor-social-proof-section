@@ -155,19 +155,6 @@ body {
   max-width: 45ch;
 }
 
-.attribution {
-  grid-column: 1/-1;
-  font-size: 1.8rem;
-  line-height: 1.4;
-  font-weight: 400;
-  justify-self: center;
-}
-
-.attribution a {
-  color: var(--color-p2);
-}
-
-
 @media (max-width: 600px) {
   body {
     background-image: url("/images/bg-pattern-top-mobile.svg");
